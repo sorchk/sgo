@@ -1,0 +1,19 @@
+{
+  "server": {
+    "addr": ":8888",
+    "plugins_dir": "plugins",
+    "config_dir": "config"
+  },
+  "clients": [
+    {
+      "id": "client1",
+      "secret": "this_is_a_very_long_secret_key_that_is_more_than_16_characters",
+      "name": "Default Client",
+      "permissions": [
+        "plugin:manage",
+        "service:manage",
+        "plugin:use"
+      ]
+    }
+  ]
+}

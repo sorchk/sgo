@@ -1,0 +1,7 @@
+{
+  "http_addr": ":8080",
+  "tcp_addr": "localhost:8888",
+  "client_id": "client1",
+  "secret": "this_is_a_very_long_secret_key_that_is_more_than_16_characters",
+  "jwt_secret": "your-jwt-secret-key"
+}
