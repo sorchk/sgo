@@ -154,6 +154,7 @@ func (p *MyServicePlugin) Stop() error {
     return p.BaseServicePlugin.Stop()
 }
 
+*.so
 func main() {}
 ```
 
@@ -214,7 +215,3 @@ func (p *MyCommandPlugin) Execute(ctx context.Context, args []string, input io.R
 
 func main() {}
 ```
-
-## 许可证
-
-MIT
