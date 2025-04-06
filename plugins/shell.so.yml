@@ -1,6 +1,0 @@
-id: shell
-name: Shell Executor
-version: 1.0.0
-type: 1
-description: Executes shell commands
-author: System
